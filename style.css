@@ -1,0 +1,64 @@
+body {
+    margin: 0%;
+    font-family: 'Russo One', sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://i.yapx.cc/KPG5N.gif);
+}
+#heroesContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.card_main {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+.cardNew {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(115, 168, 108);
+    box-sizing: border-box;
+    margin: 10px;
+    justify-content: center;
+    background-image: url(https://avatars.mds.yandex.net/i?id=7c57a086087448e2bd1c0bd43db331c55df3874b-10576314-images-thumbs&n=13);
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+#heroName {
+    background-color: rgb(182, 168, 168);
+    font-family: 'Russo One', sans-serif;
+    width: 190px;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+#heroClass {
+    background-color: rgb(182, 168, 168);
+    font-family: 'Russo One', sans-serif;
+    width: 190px;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+ #addButton {
+    background-color: rgb(182, 168, 168);
+    font-family: 'Russo One', sans-serif;
+    width: 190px;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+#addButton:hover {
+    background-color: rgb(143, 143, 143);
+    transform: rotate(360deg);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+}
